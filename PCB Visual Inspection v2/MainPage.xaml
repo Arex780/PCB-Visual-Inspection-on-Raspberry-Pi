@@ -1,14 +1,35 @@
 ﻿<Page
     x:Class="PCB_Visual_Inspection_v2.MainPage"
+    x:FieldModifier="public"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:PCB_Visual_Inspection_v2"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    NavigationCacheMode="Enabled"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="480" Width="800">
 
     <Grid>
+        <CaptureElement Name="PreviewControl" Stretch="Uniform" Margin="131,57,19,19" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Image x:Name="TakenPhoto" Margin="131,57,19,19" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsRightTapEnabled="False" IsTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False" Visibility="Collapsed"/>
+        <Button x:Name="Btn_Exit" Content="Exit" Margin="19,429,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click"/>
+        <Button x:Name="Btn_Pic" Content="Save PCB3" Margin="19,378,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_4" x:FieldModifier="public"/>
+        <HyperlinkButton x:Name="settings_hyperlink" Content="Settings" Margin="19,335,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click_1" Width="107"/>
+        <TextBlock x:Name="TextAlgorithms" HorizontalAlignment="Left" Margin="19,10,0,0" Text="Algorithms:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Segoe UI"/>
+        <CheckBox x:Name="CB1" Content="Raw" Margin="19,34,0,0" VerticalAlignment="Top" FontSize="14" Click="CB1_CheckedChanged" />
+        <CheckBox x:Name="CB2" Content="Simplified" Margin="19,71,0,0" VerticalAlignment="Top" Click="CB2_CheckedChanged"/>
+        <CheckBox x:Name="CB3" Content="Edge" Margin="19,108,0,0" VerticalAlignment="Top" Click="CB3_CheckedChanged"/>
+        <CheckBox x:Name="CB4" Content="Text" Margin="19,145,0,0" VerticalAlignment="Top" Click="CB4_CheckedChanged" IsEnabled="False"/>
+        <Button x:Name="Btn_Test" Content="Start test" Margin="19,182,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_1" IsEnabled="False"/>
+        <TextBlock x:Name="TextUp" HorizontalAlignment="Center" Margin="0,4,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Visibility="Collapsed"/>
+        <HyperlinkButton x:Name="report_hyperlink" Content="Report" Margin="19,224,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.312,0.594" Width="107" Click="HyperlinkButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,39.5,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" Foreground="#7C808080" IsHitTestVisible="False" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,76.5,0,0" Text="2" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" Foreground="#7C808080" IsHitTestVisible="False" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,113.5,0,0" Text="3" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" Foreground="#7C808080" IsHitTestVisible="False" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,150.5,0,0" Text="4" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Gray" Foreground="#7C808080" IsHitTestVisible="False" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
+
+
 
     </Grid>
 </Page>

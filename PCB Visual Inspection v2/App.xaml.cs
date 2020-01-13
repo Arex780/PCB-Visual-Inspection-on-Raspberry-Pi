@@ -66,7 +66,7 @@ namespace PCB_Visual_Inspection_v2
                     // Kiedy stos nawigacji nie jest przywrócony, przejdź do pierwszej strony,
                     // konfigurując nową stronę przez przekazanie wymaganych informacji jako
                     // parametr
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(SecondPage), e.Arguments);
                 }
                 // Upewnij się, ze bieżące okno jest aktywne
                 Window.Current.Activate();
