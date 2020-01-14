@@ -27,3 +27,6 @@ The goal to create application that performs visual inspection of PCBs has been 
 - Better webcam which focus and contrast can be set (and saving this settings to array for tested and reference PCB so they can be compared with the same focus and contrast settings);
 - Algorithm that consider and correct light color (used when lighting condition is different);
 - Multithreaded programming (dividing pictures to each thread);
+- Live checking from video preview (with some initial algoritms as well as with rotate checking and distance scalling);
+- Feature to choose in which direction Sobel or Kirsch operators will be used (in app there is 0 and 270 deegre);
+- Creating a real model of PCB Inspection bench with closed housing, conveyor and sending data to SAP or SQL databases;
