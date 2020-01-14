@@ -21,4 +21,9 @@ The project contains of 3 pages and 3 classes. On MainPage there are checkboxes 
 to be added
 
 # Possible improvments:
-to be added
+- Creating log files;
+- using MessageBox for some errors;
+- implementation of text algorithm (4th algorithm);
+- better webcam which focus and contrast can be set (and saving this settings to array for tested and reference PCB so they can be compared with the same focus and contrast settings);
+- algorithm that consider and correct light color (used when lighting is different);
+- multithreaded programming (dividing pictures to each thread);
