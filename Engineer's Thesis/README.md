@@ -9,6 +9,47 @@ The aim of the engineer's thesis is to design and implement an image capture and
 Development of a computer program.
 
 ###### 1.c Degree of accomplishment of aim of diploma and correctness of problem-solving:
+The aim of engineer's thesis was to build a device for capturing the image of a certain object from a camera and comparing it with a reference image. The device is based on Raspberry Pi with camera module connected to it. The student implemented his own methods and algorithms for image processing and recognition of printed circuit boards with a reference pictures. The aim of this engineer's thesis has been achieved.
+
+###### 1.d Efficiency of use of specialist tools and methods for a given field of study:
+The student decided to use Windows 10 IoT Core installed on Raspberry Pi 3B. The program was written in C# language as a Universal Windows Application. The user can use built-in LCD touchscreen to control the program. The author freely uses the tools used and implements the algorithms for image processing by his own. However, the applied algorithms are not very complex and require very good/uniform lighting conditions and very precise object positioning on the platform.
+
+###### 1.e Evaluation of significance of solution/results obtained:
+Implemented solutions in the student's project are from a still developing field. Although the devices for image recognition are available on the market, innovative tools were used to develop the software.
+
+## 2. Formal assessment of diploma:
+
+###### 2.a Structure of diploma:
+The work is divided into 6 chapters, which form a coherent whole. The analysis of the content is facilitated by screenshots, which are recalled as needed, presenting the implemented solutions.
+
+###### 2.b Way of describing subject of diploma:
+The engineer's thesis meets editorial requirements and is carefully prepared. Minor linguistic errors rarely occur in the content. The language and terminology used are appropriate for the thesis.
+
+###### 2.c Relevance of choice of literature:
+There are 18 references in the engineer's thesis. Among them there are articles from scientific journals, books and documentation. There are both Polish and English literature.
+
+## 3. Summary:
+
+###### 3.a Strengths and weaknesses of diploma: 
+The strengths of the engineer's thesis include, rarely seen recently, independent implementation of image processing algorithms and image recognition. The thesis is written carefully. However, the proposed image algorithms may not work in real life applications due to the necessity of precise placement of the tested PCBs. The implementation of advanced algorithms in this case is a more complex problem, the scope of which goes beyond the author's study program.
+
+###### 3.b Other comments:
+It would be better if the algorithms used for image processing and recognition were described as a block diagrams.
+
+###### 3.c Final assessment of diploma (on a scale of 2-5): 
+5.0
+
+# Review by dr Wojciech Śleszyński (reviewer)
+
+## 1. Substantive assessment of diploma:
+
+###### 1.a Aim of diploma:
+The aim of the engineer's thesis is to design and implement an image capture and processing device based on the Raspberry Pi platform. The device will perform a simple algorithm of visual inspection of printed circuit boards.
+
+###### 1.b Character of diploma:
+Development of a computer program.
+
+###### 1.c Degree of accomplishment of aim of diploma and correctness of problem-solving:
 The aim of the engineer's thesis has been fully achieved. As a part of his project, the student designed and constructed a test bench for the vision inspection of printed circuit boards using a Raspberry Pi 3B single board computer, a webcam, two LEDs and a LCD touchscreen. The basic functionality of the proposed system has been positively verified through laboratory tests, the system allows to distinguish the differences between the tested and reference printed circuit boards.
 
 ###### 1.d Efficiency of use of specialist tools and methods for a given field of study:
