@@ -1,4 +1,4 @@
-# Review by dr Wojciech Śleszyński (reviewer)
+# Review by Daniel Wachowiak, PhD (supervisor)
 
 ## 1. Substantive assessment of diploma:
 
@@ -39,7 +39,7 @@ It would be better if the algorithms used for image processing and recognition w
 ###### 3.c Final assessment of diploma (on a scale of 2-5): 
 5.0
 
-# Review by dr Wojciech Śleszyński (reviewer)
+# Review by Wojciech Śleszyński, PhD (reviewer)
 
 ## 1. Substantive assessment of diploma:
 
