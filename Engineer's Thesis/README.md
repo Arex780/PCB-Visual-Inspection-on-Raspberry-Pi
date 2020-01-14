@@ -36,4 +36,5 @@ The unquestionable advantage of the thesis is the software, made at an above-ave
 ###### 3.b Other comments:
 Wrong terminology used on page 8.
 
-###### 3.c Final assessment of diploma (on a scale of 2-5): 5.0
+###### 3.c Final assessment of diploma (on a scale of 2-5): 
+5.0
