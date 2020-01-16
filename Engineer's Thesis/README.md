@@ -50,7 +50,7 @@ The aim of the engineer's thesis is to design and implement an image capture and
 Development of a computer program.
 
 ###### 1.c Degree of accomplishment of aim of diploma and correctness of problem-solving:
-The aim of the engineer's thesis has been fully achieved. As a part of his project, the student designed and constructed a test bench for the vision inspection of printed circuit boards using a Raspberry Pi 3B single board computer, a webcam, two LEDs and a LCD touchscreen. The basic functionality of the proposed system has been positively verified through laboratory tests, the system allows to distinguish the differences between the tested and reference printed circuit boards.
+The aim of the engineer's thesis has been fully achieved. As a part of his project, the student designed and constructed a test bench for the visual inspection of printed circuit boards using a Raspberry Pi 3B single board computer, a webcam, two LEDs and a LCD touchscreen. The basic functionality of the proposed system has been positively verified through laboratory tests, the system allows to distinguish the differences between the tested and reference printed circuit boards.
 
 ###### 1.d Efficiency of use of specialist tools and methods for a given field of study:
 The student has mastered the ability to program in C# language very well and has a very good knowledge of the Microsoft Visual Studio 2019 programming environment. Skills related to the application of digital image processing methods go beyond the study program.
